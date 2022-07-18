@@ -10,6 +10,14 @@ You can use screen or tmux to open api, minerproxy,unlocker and payout modules s
 example:
 screen -mS api ./build/bin/expanse-solo-pool api.json
 
+## Build
+```
+export GO111MODULE=auto
+```
+```
+make
+```
+
 ### Building Frontend
 
 Install nodejs. I suggest using LTS version >= 4.x from https://github.com/nodesource/distributions or from your Linux distribution or simply install nodejs on Ubuntu Xenial 16.04.
